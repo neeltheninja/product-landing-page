@@ -1,6 +1,6 @@
 :root{
     --color1:#c3babe;
-    --color2:#151d2b;
+    --color2:#151d2bc0;
     --color3:#73747d;
     --color4:#3b4754;
     --color5:#848b9f;
@@ -9,4 +9,52 @@
     --color8:#87a0b6;
     --color9:darkred;
 }
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-header{
+    background-color: var(--color2);
+    backdrop-filter: blur(9px);
+    display:flex;
+    position: fixed;
+    width:100%;
+    z-index: 999;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+.header-logo{
+    margin-left:0.7rem;
+}
+
+.nav-ul{
+    display:flex;
+    list-style: none; 
+    height:100%;
+    align-items: center;
+}
+
+.nav-link{
+    padding:1.5rem;
+    margin: 0 1.5rem;
+    color:white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: #c3babe5f;
+    border-radius: 5px;
+    color:white;
+    backdrop-filter: blur(5px);
+}
+
+
 
