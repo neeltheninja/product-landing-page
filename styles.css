@@ -1,6 +1,7 @@
 :root{
     --color1:#c3babe;
-    --color2:#151d2bc0;
+    --color2:#151d2b;
+    --color2a:#151d2bc0;
     --color3:#73747d;
     --color4:#3b4754;
     --color5:#848b9f;
@@ -28,7 +29,7 @@ main{
 
 /* Start of declarations for the header section */
 .nav-header{
-    background-color: var(--color2);
+    background-color: var(--color2a);
     backdrop-filter: blur(9px);
     display:flex;
     position: fixed;
@@ -66,12 +67,66 @@ main{
 
 /* General declarations for all sections */
 .section{
-    background:red;
     margin:0 0 5rem 0;
 }
 /* End of General declarations for all sections */
 
 /* Start of declarations for section 1 */
+.section.one{
+    background-color: var(--color2);
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    color:white;
+    padding:3rem;
+   
+}
 
 
+.video-text{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+}
+.video-text h1{
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    padding:2rem;
+    border-top:3px solid var(--color1);
+    border-bottom:3px solid var(--color1);
+}
+.video-text video{
+    width:50%;
+    border-radius: 2rem;
+}
 
+
+.video-side{
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.video-side h2{
+    margin:4rem;
+    padding:2rem;
+    
+    text-align: center;
+    border:2px solid var(--color3);
+    border-radius: 2rem;
+}
+.video-side input{
+    padding:1rem;
+    width:10rem;
+    color:white;
+    background-color: var(--color9);
+    border-radius: 2rem;
+}
+
+/* End of declarations for section 1 */
+
+
+/* Start of declarations for section 2 */
