@@ -4,6 +4,7 @@
     --color2a:#151d2bc0;
     --color3:#73747d;
     --color4:#3b4754;
+    --color4a:#3b4754c0;
     --color5:#848b9f;
     --color6:#58585f;
     --color7:#4d5a6d;
@@ -162,7 +163,7 @@ main{
     background:var(--color8);
     display: flex;
     flex-direction: column;
-    
+    height: 100%;
     color:white;
     
 }
@@ -242,6 +243,7 @@ main{
     background-color: var(--color5);
     width:100%;
     padding:3rem;
+    box-sizing: content-box;
     
 }
 
@@ -256,6 +258,7 @@ main{
 .section.four h1{
     text-align: center;
     padding:4rem;
+
     text-transform: uppercase;
     background-color: var(--color4);
     color:white;
@@ -269,7 +272,7 @@ main{
 }
 
 .section.four .quote{
-    background:var(--color4);
+    background:var(--color4a);
     color:white;
     border-radius: 1rem;
     padding:2rem;
