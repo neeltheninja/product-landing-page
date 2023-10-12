@@ -37,13 +37,7 @@ main{
     z-index: 999;
     height: 5rem;
     justify-content: space-between;
-}
-
-.header-logo{
-    margin-left:0.7rem;
-}
-
-.nav-ul{
+}margin-right:1rem;
     display:flex;
     list-style: none; 
     height:100%;
@@ -156,6 +150,7 @@ General declarations for section 2 */
     display: flex;
     flex-direction: column;
     color:white;
+
     
 }
 .section.two h1{
@@ -167,12 +162,12 @@ General declarations for section 2 */
 .section.two .sets{
     display:flex;
     overflow-x:scroll;
-    font-size: 1.3rem;
-
+    font-size: 1.1rem;
+    
 
 }
 .section.two .set{  
-    margin:2rem 0;
+    margin :0;
     background:var(--color4);
     padding:1.2rem;
     align-items: center;
@@ -191,10 +186,11 @@ General declarations for section 2 */
 
 .section.two .set:first-of-type{
     border-radius: 2rem 0 0 2rem;
-    margin-left:1rem;
+    
 }
 .section.two .set:last-of-type{
     border-radius:0 2rem 2rem 0;
+    
 }
 
 
