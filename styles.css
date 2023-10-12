@@ -37,7 +37,13 @@ main{
     z-index: 999;
     height: 5rem;
     justify-content: space-between;
-}margin-right:1rem;
+}
+
+.header-logo{
+    margin-left:0.7rem;
+}
+
+.nav-ul{
     display:flex;
     list-style: none; 
     height:100%;
@@ -190,7 +196,7 @@ General declarations for section 2 */
 }
 .section.two .set:last-of-type{
     border-radius:0 2rem 2rem 0;
-    
+    margin-right:1rem;
 }
 
 
