@@ -157,14 +157,19 @@ General declarations for section 2 */
     flex-direction: column;
     
 }
+.section.two .sets{
+    display:flex;
+    overflow-x:scroll;
+
+}
 .section.two .set{
     
-    margin:5rem;
-    display:flex;
-    flex-direction: row;
-    border:0.3rem solid var(--color2);
+    margin:2rem;
+    border:0.5rem solid var(--color2);
+    border-radius: 2rem;
     padding:1.2rem;
-    ;
+    width:100dvw;
+    
     
 }
 
