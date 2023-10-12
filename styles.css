@@ -67,7 +67,7 @@ main{
 
 /* General declarations for all sections */
 .section{
-    margin:0 0 5rem 0;
+    
 }
 /* End of General declarations for all sections */
 
@@ -124,7 +124,7 @@ main{
 }
 .video-side p{
     font-size: 1.2rem;
-    width:60%;
+    width:70%;
 }
 .video-side input{
     margin-top: 2.0rem;
@@ -136,7 +136,7 @@ main{
     text-transform: uppercase;
     color:var(--color2);
     background-color: var(--color8);
-    box-shadow: 4px 4px 3px var(--color5);
+    box-shadow: 3px 3px 3px var(--color5);
     border:none;
     border-radius: 3rem;
 }
@@ -149,3 +149,39 @@ main{
 
 
 /* Start of declarations for section 2 */
+/* 
+General declarations for section 2 */
+.section.two{
+    background:var(--color8);
+    display: flex;
+    flex-direction: column;
+    
+}
+.section.two .set{
+    
+    margin:5rem;
+    display:flex;
+    flex-direction: row;
+    border:0.3rem solid var(--color2);
+    padding:1.2rem;
+    ;
+    
+}
+
+
+
+
+
+
+
+/* End of declarations for section 2 */
+
+
+/* Start of declarations for section 3 */
+
+.section.three{
+    background-color: var(--color5);
+
+}
+
+/* End of declarations for section 3 */
