@@ -30,7 +30,7 @@ main{
 /* Start of declarations for the header section */
 .nav-header{
     background-color: var(--color2a);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(4px);
     display:flex;
     position: fixed;
     width:100%;
@@ -96,9 +96,11 @@ main{
     padding:2rem;
     border-top:3px solid var(--color1);
     border-bottom:3px solid var(--color1);
+    border-radius: 1rem;
 }
 .video-text video{
     width:50%;
+
     border-radius: 2rem;
 }
 
@@ -108,22 +110,39 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:2rem;
     gap:1rem;
 }
 .video-side h2{
     margin:4rem;
     padding:2rem;
-    
+    text-transform: uppercase;
     text-align: center;
     border:2px solid var(--color3);
     border-radius: 2rem;
+    background-color: var(--color4);
+}
+.video-side p{
+    font-size: 1.2rem;
+    width:60%;
 }
 .video-side input{
-    padding:1rem;
-    width:10rem;
-    color:white;
-    background-color: var(--color9);
-    border-radius: 2rem;
+    margin-top: 2.0rem;
+    padding:0.9rem;
+    width:12rem;
+    position: relative;
+    top:1.2rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color:var(--color2);
+    background-color: var(--color8);
+    box-shadow: 4px 4px 3px var(--color5);
+    border:none;
+    border-radius: 3rem;
+}
+.video-side input:hover{
+    background-color: #4d5a6d;
+    color:var(--color1)
 }
 
 /* End of declarations for section 1 */
