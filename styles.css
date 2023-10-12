@@ -99,8 +99,7 @@ main{
     border-radius: 1rem;
 }
 .video-text video{
-    width:50%;
-
+    width:100rem;
     border-radius: 2rem;
 }
 
@@ -174,12 +173,17 @@ General declarations for section 2 */
 
 }
 .set{  
-    margin :0;
+    margin:1rem 0 1rem 1rem;
     background:var(--color4);
     padding:1.2rem;
     align-items: center;
 }
-
+.set:first-of-type{
+    border-radius: 2rem 0 0 2rem;
+}
+.set:last-of-type{
+    border-radius: 0 2rem 2rem 0;
+}
 
 .set h2, .description{
     text-align: center;
@@ -199,11 +203,41 @@ General declarations for section 2 */
 /* Start of declarations for section 3 */
 
 .section.three{
-    background-color: var(--color5);
+    background-color: var(--color1);
     display: flex;
+    gap:0.3rem;
+    padding:1rem;
+}
+.section.three .set{
+    width:100%;
+    padding:1rem;
+    color:white;
     
 }
-
-
+.section.three .description{
+    background-color: var(--color1);
+    color:black;
+}
+.section.three h1{
+    width:100%;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    background:var(--color1);
+}
 
 /* End of declarations for section 3 */
+
+/* Start of declarations for section 4 */
+.section.four{
+    background:var(--color8);
+    display:flex;
+    flex-direction: column;
+}
+.section.four .quotes{
+    display:flex;
+    flex-direction:row;
+
+}
+/* End of declarations for section 4 */
