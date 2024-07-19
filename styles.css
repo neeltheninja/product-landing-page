@@ -296,3 +296,6 @@ main{
 /* End of declarations for section 4 */
 
 /* Start of declarations for section 5 */
+.section.five {
+    background-color: var(--color2a);
+}
